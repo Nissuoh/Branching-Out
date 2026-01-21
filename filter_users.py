@@ -18,7 +18,7 @@ def filter_by_age(age):
         print("You are not old enough to vote.")
 
 
-filter_by_age()
+filter_by_age(17)
 
 if __name__ == "__main__":
     filter_option = input("What would you like to filter by? (Currently, only 'name' is supported): ").strip().lower()
